@@ -53,7 +53,7 @@ function log(text) {
     let minutes = ('0' + new Date().getMinutes()).slice(-2);
     logs.innerHTML += `<div class="mb-16">
     <code>
-    <i>${hours}:${minutes}</i> ${text}
+    <i>${hours}:${minutes}</i> | ${text}
 </code></div>`;
 }
 
